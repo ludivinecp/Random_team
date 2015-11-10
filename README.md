@@ -40,3 +40,5 @@ It will return 3 random teams  :
 ```'rb'
 [["Laurent", "Anthony"], ["Lucie", "Coralie"], ["Marie", "Pierre"]]
 ```
+
+You can also try the second script (which is in comment), it allows you to name your team. But you can only have 2 teams.
