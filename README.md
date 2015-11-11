@@ -41,4 +41,8 @@ It will return 3 random teams  :
 [["Laurent", "Anthony"], ["Lucie", "Coralie"], ["Marie", "Pierre"]]
 ```
 
-You can also try the OPTION 2 (which is in comment), it allows you to name your team. But you can only create 2 teams.
+You can also try :
+```'rb'
+# OPTION 2
+```
+It allows you to name your team. But you can only create 2 teams.
