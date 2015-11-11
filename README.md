@@ -41,6 +41,8 @@ It will return 3 random teams  :
 [["Laurent", "Anthony"], ["Lucie", "Coralie"], ["Marie", "Pierre"]]
 ```
 
+-----------------
+
 You can also try :
 ```'rb'
 # OPTION 2
