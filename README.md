@@ -1,7 +1,7 @@
 # Random_team
 Generate a random team
 ```'rb'
-# PERSONNALIZE TEAM
+# OPTION 1
 ```
 
 ```'sh'
@@ -41,4 +41,4 @@ It will return 3 random teams  :
 [["Laurent", "Anthony"], ["Lucie", "Coralie"], ["Marie", "Pierre"]]
 ```
 
-You can also try the second script (which is in comment), it allows you to name your team. But you can only have 2 teams.
+You can also try the OPTION 2 (which is in comment), it allows you to name your team. But you can only create 2 teams.
