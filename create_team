@@ -1,0 +1,57 @@
+# OPTION 1 (PERSONNALIZE NAME - TEAMS NOT NAMED)
+
+names = []
+
+begin
+puts "------Joueur ?------"
+names << nom_joueur = gets.chomp
+end  until nom_joueur == "."
+
+
+names.pop
+
+puts "------Nombre d'équipes ?------"
+nb_team = gets.chomp.to_i
+
+team_size = (names.length/nb_team)
+
+
+teams = []
+
+(1..nb_team).each do |num|
+  teams[num - 1] = names.sample(team_size)
+  names = names - teams[num - 1]
+end
+
+p teams
+
+
+
+
+
+# OPTION 2 (PERSONNALIZE NAME - ONLY WORKS WITH 2 TEAMS - TEAMS ARE NAMED) 
+
+# names = []
+
+# begin
+# puts "-----Joueur ?-----"
+# names << saisi = gets.chomp
+# end  until saisi == "."
+
+# names.pop
+# team_size = names.length/2
+
+# team_1 = names.sample(team_size)
+# team_2 = (names - team_1)
+
+# puts "name team 1"
+# saisi = gets.chomp.upcase
+
+# puts "name team 2"
+# saisi2 = gets.chomp.upcase
+
+# puts "------#{saisi}------"
+# puts team_1
+# puts "------#{saisi2}------"
+# puts team_2
+
