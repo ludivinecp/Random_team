@@ -24,7 +24,7 @@ $ Anthony
 $ Coralie
 
 ```
-When all you players have been added, tape :
+When all you players have been added, put :
 ```'sh'
 $ .
 ```
